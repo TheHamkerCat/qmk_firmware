@@ -29,8 +29,8 @@
     },
     "matrix_pins": {
         "direct": [
-            ["B2", "B3", "B4", "B5", "B10"],  //B10 as Encoder Switch
-            ["B6", "B7", "B8", "B8"]
+            ["A7", "A6", "A5", "A4", "B10"],  //B10 as Encoder Switch
+            ["A3", "A2", "A1", "A0"]
         ]
     },
     "layouts": {
