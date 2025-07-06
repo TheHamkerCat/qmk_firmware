@@ -13,8 +13,8 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-      KC_NO, KC_NO,  KC_NO, KC_NO, KC_MUTE,
-      KC_NO,  KC_NO, KC_NO, KC_NO
+      KC_BRIGHTNESS_UP, KC_MEDIA_NEXT_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_PLAY_PAUSE, KC_MUTE,
+      KC_BRIGHTNESS_DOWN, KC_MEDIA_PREV_TRACK, KC_MUTE, QK_BOOTLOADER
       )
 };
 
